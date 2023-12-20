@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Android Demo Library</string>
+    <string name="show_message">TOAST MESSAGE</string>
+</resources>
