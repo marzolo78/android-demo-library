@@ -5,4 +5,4 @@ before_install:
   - ./scripts/prepareJitpackEnvironment.sh
 install:
   - FILE="-Dfile=demoModule-release.aar"
-  - mvn install:install-file $FILE -DgroupId=com.github.marzolo78 -DartifactId=android-demo-library -Dversion=1.0.1 -Dpackaging=aar -DgeneratePom=true
+  - mvn install:install-file $FILE -DgroupId=com.github.marzolo78 -DartifactId=android-demo-library -Dversion=1.0.2 -Dpackaging=aar -DgeneratePom=true
