@@ -33,9 +33,9 @@ publishing {
         maven(MavenPublication) {
             groupId 'com.github.com.github.marzolo78'
             artifactId 'android-demo-library'
-            version '1.0.0'
+            version '1.0.1'
             pom {
-                description 'First Android demo library'
+                description 'Added add image to view method'
             }
         }
     }
