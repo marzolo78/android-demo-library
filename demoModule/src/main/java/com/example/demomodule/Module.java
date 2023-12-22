@@ -9,4 +9,8 @@ public class Module {
       Toast.makeText(context, message, Toast.LENGTH_LONG).show();
    }
 
+   public static void logMessage(String message) {
+      System.out.println(message);
+   }
+
 }

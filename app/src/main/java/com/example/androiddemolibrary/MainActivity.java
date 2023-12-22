@@ -3,7 +3,6 @@ package com.example.androiddemolibrary;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
 
 import com.example.demomodule.Module;
@@ -19,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
 
 		btnToastMessage.setOnClickListener(view -> {
 			Module.toastMessage(getApplicationContext(), "Hi everyone");
+			Module.logMessage("Hi again");
 		});
 	}
 }
