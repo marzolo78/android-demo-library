@@ -31,14 +31,11 @@ android {
 publishing {
     publications {
         maven(MavenPublication) {
-            groupId 'com.github.com.github.marzolo78'
+            groupId 'com.github.marzolo78'
             artifactId 'android-demo-library'
-            version '1.0.3'
+            version '1.0.4'
             pom {
                 description 'Added add image to view method'
-            }
-            dependencies {
-                implementation 'com.squareup.picasso:picasso:2.8'
             }
         }
     }
