@@ -33,7 +33,7 @@ publishing {
         maven(MavenPublication) {
             groupId 'com.github.marzolo78'
             artifactId 'android-demo-library'
-            version '1.0.4'
+            version '1.0.5'
             pom {
                 description 'Added add image to view method'
             }

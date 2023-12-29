@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.github.marzolo78</groupId>
   <artifactId>android-demo-library</artifactId>
-  <version>1.0.4</version>
+  <version>1.0.5</version>
   <packaging>pom</packaging>
   <description>Four Android demo library</description>
   <dependencies>
