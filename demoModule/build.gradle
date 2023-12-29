@@ -5,11 +5,11 @@ plugins {
 
 android {
     namespace 'com.example.demomodule'
-    compileSdk 33
+    compileSdk 34
 
     defaultConfig {
         minSdk 19
-        targetSdk 33
+        targetSdk 34
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
@@ -33,9 +33,12 @@ publishing {
         maven(MavenPublication) {
             groupId 'com.github.com.github.marzolo78'
             artifactId 'android-demo-library'
-            version '1.0.2'
+            version '1.0.3'
             pom {
                 description 'Added add image to view method'
+            }
+            dependencies {
+                implementation 'com.squareup.picasso:picasso:2.8'
             }
         }
     }
@@ -47,7 +50,7 @@ publishing {
 dependencies {
 
     implementation 'androidx.appcompat:appcompat:1.6.1'
-    implementation 'com.google.android.material:material:1.5.0'
+    implementation 'com.google.android.material:material:1.11.0'
     implementation 'com.squareup.picasso:picasso:2.8'
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
